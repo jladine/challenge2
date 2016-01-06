@@ -18,6 +18,7 @@ main {
   font-size: 13px;
   background-color: white;
   box-shadow: 0px 0px 3px #606060;
+  color: #606060;
 }
 
 .origami {
@@ -50,15 +51,37 @@ nav {
   margin-bottom: 25px;
 }
 
-nav ul li {
+nav .ul_1 .li_1 {
   display: inline-block;
-  padding: 20px 30px;
-
+  padding-top: 20px;
+  vertical-align: top;
+  width: 171px;
 }
 
-nav ul li a {
+nav .ul_1 .li_1 a {
   text-decoration: none;
-  color: black;
+  color: #606060;
+}
+
+.ul_2 {
+   list-style: none;
+ }
+
+.ul_2 {
+  opacity: 0;
+  position: absolute;
+  width: 171px;
+  padding-top: 21px;
+}
+
+.li_2 {
+  height: 33px;
+  background-color: #F4F4F4;
+  padding-top: 8px;
+}
+
+.li_1:hover .ul_2 {
+  opacity: 1;
 }
 
 #paysage {
@@ -117,16 +140,16 @@ footer article {
   padding: 10px;
 }
 
- footer article ul {
+ footer article .ul_1 {
    list-style: none;
    margin-top: 10px;
  }
 
- footer article ul li {
+ footer article .ul_1 .li_1 {
    margin-top: 2px;
  }
 
-footer article ul li a {
+footer article .ul_1 .li_1 a {
   text-decoration: none;
-  color: black;
+  color: #606060;
 }
