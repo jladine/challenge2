@@ -72,6 +72,8 @@ nav .ul_1 .li_1 a {
   position: absolute;
   width: 171px;
   padding-top: 21px;
+  /*display: none;*/
+  transition: 0.5s;
 }
 
 .li_2 {
@@ -82,6 +84,8 @@ nav .ul_1 .li_1 a {
 
 .li_1:hover .ul_2 {
   opacity: 1;
+  /*display: block;*/
+  transition: 1s;
 }
 
 #paysage {
